@@ -25,7 +25,7 @@ Scaling up: System already baselined, startup the lab the specific number of
 users and its respective slaves (creates 2 ansiblelabusers, 2 Masters (1 master
 per user) and 3 slaves per master).
 ```
-./ansible_lab.yml --tags=users,group,m_startup ansible_lab.yml -e users=2 -e slaves=3
+./ansible_lab.yml --tags=users,group,m_startup -e users=2 -e slaves=3
 ```
 
 ### Access to the users and slaves:
@@ -82,9 +82,9 @@ Tags of Ansible has been leveraged to offer various kinds of functionalities to
 suit your requirements.
 
 Note:
-  * Tags as "m_" mean those tasks are using the Ansible Docker Module (will work
+  * Tags as `m_` mean those tasks are using the Ansible Docker Module (will work
 if Ansible dependencies for using the Docker module of Ansible are installed)
-  * Tags as "cli_" mean those tasks are using the Command Line (CLI of Docker)
+  * Tags as `cli_` mean those tasks are using the Command Line (CLI of Docker)
 
 ###Available Tags:
 
