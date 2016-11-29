@@ -135,7 +135,6 @@ management tool
 ### Lab Setup Representation
 
 ```
-<!-- language: lang-none -->
                                                                                            Host Machine
                                                   +-------------------------------------------------------------------------------------------------+
                                                   |                                                                                                 |
